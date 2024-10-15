@@ -136,7 +136,6 @@ form button[type="submit"]:hover{
     transition: all 0.3s ease-in-out;
     overflow-x: hidden;
     overflow-y: scroll;
-    opacity: 0;
 }
 
 .recipe-details-content{

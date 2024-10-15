@@ -159,7 +159,7 @@ form button[type="submit"]:hover{
 }
 
 .recipe-close-btn{
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 10px;
     font-size: 30px;

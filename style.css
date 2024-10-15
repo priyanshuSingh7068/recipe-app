@@ -127,8 +127,8 @@ form button[type="submit"]:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 0;
-    width: 0;
+    height: 40%;
+    width: 60%;
     background-color: #072d35;
     border-radius: 5px;
     -webkit-transform: translate(-50%, -50%);
@@ -195,12 +195,11 @@ footer {
     flex-direction: column;
     margin: auto;
   }
-  .recipe-details-content{
-    padding: 5px;
+  .recipe-details{
+    width: 80%;
+    height: 50%;
+  }
 }
-}
-
-
 
 .recipe-details::-webkit-scrollbar {
     width: 5px;

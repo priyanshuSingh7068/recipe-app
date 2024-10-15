@@ -59,16 +59,10 @@ const openRecipePopup = (meal) => {
     </div>
     `;
   recipeDetailsContent.parentElement.style.display = "block";
-  recipeDetailsContent.parentElement.style.width = "60%";
-  recipeDetailsContent.parentElement.style.height = "50%";
-  recipeDetailsContent.parentElement.style.opacity = "1";
 };
 
 recipeCloseBtn.addEventListener("click", () => {
-  // recipeDetailsContent.parentElement.style.display = "none"
-  recipeDetailsContent.parentElement.style.width = "0px";
-  recipeDetailsContent.parentElement.style.height = "0px";
-  recipeDetailsContent.parentElement.style.opacity = "0";
+  recipeDetailsContent.parentElement.style.display = "none"
 });
 searchBtn.addEventListener("click", (e) => {
   e.preventDefault();

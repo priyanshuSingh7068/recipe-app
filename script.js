@@ -59,7 +59,7 @@ const openRecipePopup = (meal) => {
     </div>
     `;
   recipeDetailsContent.parentElement.style.display = "block";
-  recipeDetailsContent.parentElement.style.width = "40%";
+  recipeDetailsContent.parentElement.style.width = "60%";
   recipeDetailsContent.parentElement.style.height = "50%";
   recipeDetailsContent.parentElement.style.opacity = "1";
 };

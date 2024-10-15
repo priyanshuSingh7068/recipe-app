@@ -195,6 +195,9 @@ footer {
     flex-direction: column;
     margin: auto;
   }
+  .recipe-details-content{
+    padding: 5px;
+}
 }
 
 
